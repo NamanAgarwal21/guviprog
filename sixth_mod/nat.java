@@ -3,11 +3,9 @@ class nat
 {
 public static void main(String args[]){
 Scanner sc=new Scanner(System.in);
-int n,i,a=0;
+int n;
 n=sc.nextInt();
-for(i=1;i<=n;i++)
-{
-a=a+i;}
+n=(n*(n+1))/2;
 
-System.out.print(a);
+System.out.print(n);
 }}

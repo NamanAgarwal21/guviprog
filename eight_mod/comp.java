@@ -10,7 +10,7 @@ if(s%i==0)
 if(c>1)
 break;
 }
-if(c==1)
+if(c>1)
 System.out.println("yes");
 else
 System.out.println("no");}}
